@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+.footer{
+  border-top: solid 1px #ABB2BF;
+}
+
+.footer .childs .first-child .logo .logo-text{
+  color: var(--white, #FFF);
+font-family: "Fira Code", monospace;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.footer .childs .first-child .logo-cnt p{
+  color: var(--gray, #ABB2BF);
+  font-family: "Fira Code" , monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer .childs .first-child .footer-text{
+  color: var(--white, #FFF);
+  font-family: "Fira Code" , monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+
+}
+
+.footer .childs .second-child h3{
+  color: var(--white, #FFF);
+font-family: "Fira Code" , monospace;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.footer .bottom-bar p{
+  color: var(--   white, #FFF);
+  font-family: "Fira Code" , monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

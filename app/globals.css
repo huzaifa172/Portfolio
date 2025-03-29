@@ -1,8 +1,15 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+
+body {
+  font-family: 'Fira Code', monospace;
+}
+
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #282C33;
+  --foreground: #ABB2BF;
 }
 
 @theme inline {
@@ -14,8 +21,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #282C33;
+    --foreground: #ABB2BF;
   }
 }
 
