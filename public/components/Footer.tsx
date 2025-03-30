@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="childs flex justify-between w-full">
       <div className="first-child w-[50%] flex flex-col gap-[20px] ">
         <div className="logo-cnt flex justify-between  max-w-[250px]">
-        <div className="logo flex justify-start">
+        <div className="logo flex justify-start gap-[10px]">
           <img src="/logo.png" alt="LOGO" />
           <p className='logo-text'> Elias</p>
         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
 
-      <div className="bottom-bar w-full flex justify-center">
+      <div className="bottom-bar w-full flex justify-center pb-[20px]">
         <p>© Copyright 2022. Made by Elias</p>
       </div>
     </div>
