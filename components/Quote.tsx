@@ -1,6 +1,5 @@
 "use client" ; 
 import React from 'react'
-import './temporoy.css'
 import { motion } from 'framer-motion';
 
 

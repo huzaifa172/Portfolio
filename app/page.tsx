@@ -1,14 +1,13 @@
-import Header from "@/public/components/Header";
-import "./globals.css"
-import Media from "@/public/components/Media";
-import HeroSection from "@/public/components/HeroSection";
-import Quote from "@/public/components/Quote";
-import Project from "@/public/components/Project";
-import Skills from "@/public/components/Skills";
-import Aboutme from "@/public/components/aboutme";
-import Contacts from "@/public/components/Contacts";
-import Footer from "@/public/components/footer";
-
+import Header from "@/components/Header";
+import "./globals.css";
+import Media from "@/components/Media";
+import HeroSection from "@/components/HeroSection";
+import Quote from "@/components/Quote";
+import Project from "@/components/Project";
+import Skills from "@/components/Skills";
+import Aboutme from "@/components/Aboutme"; // Ensure case matches exactly
+import Contacts from "@/components/Contacts";
+import Footer from "@/components/Footer"; // Ensure case matches exactly
 
 export default function Home() {
   return (
