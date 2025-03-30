@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-const Button = ({label}) => {
+const Button = ({ label }: { label: string }) => {
   return (
     <><div className='btn-cnt'>
         <button>{label}</button>
