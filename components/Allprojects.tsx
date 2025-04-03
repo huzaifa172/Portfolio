@@ -5,9 +5,10 @@ import { motion } from "framer-motion";
 import Button from './Button';
 
 
-const Project = () => {
+const AllProjects = () => {
   return (
-            <>
+    // rarly flex and padding are used with tailwind 
+<>
         <div className='project-parent'>
       <div className='project-cnt'>
 
@@ -28,10 +29,14 @@ const Project = () => {
       transition={{duration: 0.5}}
       /> 
       <div className="top">
-        <div><h3><span>#</span>project</h3><span className='line'></span></div>
-        <div><a href="#">View All </a></div>
+        <div><h3><span>#</span>complete-apps</h3></div>
+           
       </div>
-      <div className="project-boxes row-gap-[20px]">
+
+
+
+      
+      <div className="project-boxes gap-[20px] ">
         
         
         
@@ -107,6 +112,7 @@ const Project = () => {
     <style>
       {`
         .project-parent{
+        padding-bottom: 50px;
         position: relative;
         width: 100%;
         display: flex;
@@ -161,27 +167,12 @@ const Project = () => {
         justify-content: center;
         align-items: center;  
         }
-        .project-cnt .top div .line{
-        width: 600px;
-        height: 1px !important;
-        color: var(--primary, #C778DD);
-        padding: 1px;
-        margin-left: 5px;
-        background-color: #C778DD;
-        }
-        .project-cnt .top div a{
-        font-family: "Fira Code" , monospace;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        }
         .project-cnt .project-boxes{
         display: flex;
         width: 100%;
         justify-content: space-between;
         flex-wrap: wrap;
-
+        gap: 20px;
         }
 
         .project-cnt .project-boxes .box{
@@ -190,6 +181,7 @@ const Project = () => {
         flex-direction: column;
         width: 330px;
         }
+
         .project-cnt .project-boxes .box img{
         width: 330px;
         }
@@ -234,4 +226,4 @@ const Project = () => {
   )
 }
 
-export default Project;
+export default AllProjects;

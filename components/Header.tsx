@@ -2,7 +2,7 @@
 
 import React from 'react'
 import './styelsheets/components.css'
-
+import Link from 'next/link'
 
 
 const Header = () => {
@@ -28,9 +28,11 @@ const Header = () => {
 
       <div className="menu">
         <ul className=' flex justify-center items-center gap-[32px]'>
-        <li className='font-[16px] font-medium text-white'><span className='text-[#C778DD]'>#</span>home</li>
+        <li className='font-[16px] font-medium text-white'><Link href="/"><span className='text-[#C778DD]'>#</span>home</Link></li>
         <li className='font-[16px] font-medium text-white'><span className='text-[#C778DD]'>#</span>works</li>
         <li className='font-[16px] font-medium text-white'><span className='text-[#C778DD]'>#</span>about-me</li>
+        <li className='font-[16px] font-medium text-white'><Link href="/projects"><span className='text-[#C778DD]'>#</span>projects</Link></li>
+        
         </ul>
       </div>
       <div className="lang-change">
