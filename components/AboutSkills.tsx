@@ -1,12 +1,7 @@
-'use client';
+"use client";
 import React from 'react'
 import { motion } from 'framer-motion';
-import Button from './Button';
-
-
-
-
-const Aboutme = () => {
+const AboutSkills = () => {
   return (
     <>
     <div className='about-cnt max-w-[1440px]'>
@@ -44,7 +39,7 @@ const Aboutme = () => {
           Whether it's launching a startup, boosting a local business, or building a custom web app, I focus on delivering results that matter. I believe in clean code, clear purpose, and continuous learning — because the web doesn’t wait, and neither do I.
 
 </p>
-            <Button label="Read more "/>
+
           </div>
           <div className="pic relative">
           <motion.img 
@@ -155,4 +150,4 @@ const Aboutme = () => {
   )
 }
 
-export default Aboutme;
+export default AboutSkills

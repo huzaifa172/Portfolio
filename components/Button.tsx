@@ -22,7 +22,6 @@ const Button = ({ label }: { label: string }) => {
       font-weight: 500;
       line-height: normal;
       }
-    
     `}
     </style>
     </>

@@ -7,15 +7,15 @@ const Footer = () => {
  <div className=' footer w-[1440px] max-w-[90%] flex flex-col justify-between pt-[38px] gap-[38px]'>
       <div className="childs flex justify-between w-full">
       <div className="first-child w-[50%] flex flex-col gap-[20px] ">
-        <div className="logo-cnt flex justify-between  max-w-[250px]">
+        <div className="logo-cnt flex justify-between  max-w-[400px]">
         <div className="logo flex justify-start gap-[10px]">
           <img src="/logo.png" alt="LOGO" />
-          <p className='logo-text'> Elias</p>
+          <p className='logo-text'>huzaifa iqbal</p>
         </div>
-        <p>elias@elias-dev.ml</p>
+        <p>huzaifaiqbal5554@gmail.com</p>
           
         </div>
-        <p className='footer-text'>Web designer and front-end developer</p>
+        <p className='footer-text'>web dev MERN & Wordpress</p>
       </div>
       <div className="second-child flex flex-col justify-center items-center">
         <h3>Media</h3>

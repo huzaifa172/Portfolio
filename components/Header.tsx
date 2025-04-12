@@ -18,9 +18,7 @@ const Header = () => {
 <path fillRule="evenodd" clipRule="evenodd" d="M12 0.5H8V4.5H4H0V8.5V12.5V16.5H4H8V12.5H12H16V8.5V4.5V0.5H12ZM4 12.5H8V8.5H12V4.5H8V8.5H4V12.5Z" fill="white"/>
         </svg>
         </div>
-
-
-       <p>Elias</p>
+   <p>huzaifa Iqbal</p>
       
       </div>
 
@@ -30,7 +28,8 @@ const Header = () => {
         <ul className=' flex justify-center items-center gap-[32px]'>
         <li className='font-[16px] font-medium text-white'><Link href="/"><span className='text-[#C778DD]'>#</span>home</Link></li>
         <li className='font-[16px] font-medium text-white'><span className='text-[#C778DD]'>#</span>works</li>
-        <li className='font-[16px] font-medium text-white'><span className='text-[#C778DD]'>#</span>about-me</li>
+        <li className='font-[16px] font-medium text-white'>
+          <Link href="/aboutme"><span className='text-[#C778DD]'>#</span>about-me</Link></li>
         <li className='font-[16px] font-medium text-white'><Link href="/projects"><span className='text-[#C778DD]'>#</span>projects</Link></li>
         
         </ul>

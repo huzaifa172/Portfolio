@@ -16,7 +16,7 @@ const Quote = () => {
  <div className='qoute-cnt w-[712px] display flex flex-col relative'>
       <img src="/qoutation.png" alt="qoutation" />
       <div>
-        <h3>With great power comes great electricity bill</h3>
+        <h3>Code isn’t just syntax — it’s a tool to solve real-world problems and empower communities.</h3>
       </div>
       <img className='second-quot' src="/qoutation.png" alt="qoutation" />
 

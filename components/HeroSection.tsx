@@ -14,8 +14,8 @@ const HeroSection = () => {
     className=' w-full'
     >
         <div className="hero-child w-[100%] flex flex-col justify-center gap-[20px]">
-            <h1 className=''>Elias is a <span>UI Designer</span> and <span>Adobe Expert</span></h1>
-            <p>He crafts responsive websites where technologies meet creativity</p>
+            <h1 className=''>Huzaifa iqbal is a <span>Web developer</span> and <span>MERN Expert</span></h1>
+            <p>He Transforming Ideas into Scalable Web Platforms with MERN & WordPress.</p>
             <Button label="Contact me!!"/>      
         </div>
 

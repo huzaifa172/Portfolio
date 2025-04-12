@@ -35,6 +35,62 @@ const SmallProjects = () => {
             </div>
         </div>
 
+
+        <div className='box'>
+            <p>Discord.js TS JS</p>
+            <div className='box-child'>
+              <h4>Bot Boilerplate</h4>
+              <p>Start creating scalable discord.js bot with typescript in seconds </p>
+              <Button label="Github"/>
+            </div>
+        </div>
+
+        <div className='box'>
+            <p>Discord.js TS JS</p>
+            <div className='box-child'>
+              <h4>Bot Boilerplate</h4>
+              <p>Start creating scalable discord.js bot with typescript in seconds </p>
+              <Button label="Github"/>
+            </div>
+        </div>
+
+        <div className='box'>
+            <p>Discord.js TS JS</p>
+            <div className='box-child'>
+              <h4>Bot Boilerplate</h4>
+              <p>Start creating scalable discord.js bot with typescript in seconds </p>
+              <Button label="Github"/>
+            </div>
+        </div>
+        
+        <div className='box'>
+            <p>Discord.js TS JS</p>
+            <div className='box-child'>
+              <h4>Bot Boilerplate</h4>
+              <p>Start creating scalable discord.js bot with typescript in seconds </p>
+              <Button label="Github"/>
+            </div>
+        </div>
+        
+        <div className='box'>
+            <p>Discord.js TS JS</p>
+            <div className='box-child'>
+              <h4>Bot Boilerplate</h4>
+              <p>Start creating scalable discord.js bot with typescript in seconds </p>
+              <Button label="Github"/>
+            </div>
+        </div>
+        
+        <div className='box'>
+            <p>Discord.js TS JS</p>
+            <div className='box-child'>
+              <h4>Bot Boilerplate</h4>
+              <p>Start creating scalable discord.js bot with typescript in seconds </p>
+              <Button label="Github"/>
+            </div>
+        </div>
+
+
         </div>
         <style>
           {`
@@ -93,6 +149,7 @@ const SmallProjects = () => {
         width: 100%;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 20px;
 
         }
 
@@ -102,9 +159,18 @@ const SmallProjects = () => {
         flex-direction: column;
         width: 330px;
         }
-        .project-cnt .project-boxes .box img{
-        width: 330px;
+        
+        .small-project-cnt .boxes .box p{
+        color: var(--gray, #ABB2BF);
+        font-family: "Fira Code" , monospace;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 8px; 
+        border-bottom: 1px solid var(--gray, #ABB2BF);
         }
+
         .small-project-cnt .boxes .box .box-child {
         padding: 20px;
         }

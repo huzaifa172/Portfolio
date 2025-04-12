@@ -27,7 +27,8 @@ const Contacts = () => {
 <div className="second flex justify-between items-center"> 
 
   <div className="details">
-     <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p> 
+     <p>
+     Let’s turn your next big idea into a digital reality — the kind people don’t forget.</p> 
   </div>
   <div className="message-me">
     <div>

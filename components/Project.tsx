@@ -31,7 +31,7 @@ const Project = () => {
         <div><h3><span>#</span>project</h3><span className='line'></span></div>
         <div><a href="#">View All </a></div>
       </div>
-      <div className="project-boxes row-gap-[20px]">
+      <div className="project-boxes gap-[30px]">
         
         
         
