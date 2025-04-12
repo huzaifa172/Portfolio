@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import Media from '@/components/Media'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import Media from '../../components/Media'
 
-import Aboutme from '@/components/Aboutme'
-import AboutSkills from '@/components/AboutSkills'
-import Funfacts from '@/components/Funfacts'
-import PageHeading from '@/components/PageHeading'
+import Aboutme from '../../components/Aboutme'
+import AboutSkills from '../../components/AboutSkills'
+import Funfacts from '../../components/Funfacts'
+import PageHeading from '../../components/PageHeading'
 const page = () => {
   return (
 <>

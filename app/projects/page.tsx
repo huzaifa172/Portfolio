@@ -1,13 +1,13 @@
 "use client";
 
 
-import AllProjects from '@/components/Allprojects';
-import Footer from '@/components/Footer';
-import Header from '@/components/Header'
-import Media from '@/components/Media'
-import PageHeading from '@/components/PageHeading';
+import AllProjects from '../../components/Allprojects';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header'
+import Media from '../../components/Media'
+import PageHeading from '../../components/PageHeading';
 
-import SmallProjects from '@/components/SmallProjects';
+import SmallProjects from '../../components/SmallProjects';
 
 
 const page = () => {
