@@ -46,7 +46,7 @@ const AllProjects = () => {
         
         
         <div className='box'>
-            <img src="/project1.jpg" alt="" />
+            <Image src="/project1.jpg" alt="" />
             <p>HTML SCSS Python Flask</p>
             <div className='box-child'>
               <h4>ChertNode</h4>
@@ -60,7 +60,7 @@ const AllProjects = () => {
 
 
         <div className='box'>
-            <img src="/project2.jpg" alt="" />
+            <Image src="/project2.jpg" alt="" />
             <p>React Express Discord.js Node.js HTML SCSS Python Flask</p>
             <div className='box-child'>
               <h4>ProtectX</h4>
@@ -72,7 +72,7 @@ const AllProjects = () => {
 
 
         <div className='box'>
-            <img src="/project3.jpg" alt="" />
+            <Image src="/project3.jpg" alt="" />
             <p>CSS Express Node.js</p>
             <div className='box-child'>
               <h4>Kahoot Answers Viewer</h4>
@@ -85,7 +85,7 @@ const AllProjects = () => {
 
 
         <div className='box'>
-            <img src="/portfolio-project.png" alt="" />
+            <Image src="/portfolio-project.png" alt="" />
             <p>Vue Ts Less </p>
             <div className='box-child'>
               <h4>Portfolio</h4>
@@ -97,7 +97,7 @@ const AllProjects = () => {
 
 
         <div className='box'>
-            <img src="/fourth-project.png" alt="" />
+            <Image src="/fourth-project.png" alt="" />
             <p>HTML CSS JS </p>
             <div className='box-child'>
               <h4>Kotick Bot</h4>
@@ -187,7 +187,7 @@ const AllProjects = () => {
         width: 330px;
         }
 
-        .project-cnt .project-boxes .box img{
+        .project-cnt .project-boxes .box Image{
         width: 330px;
         }
 
