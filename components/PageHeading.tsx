@@ -1,5 +1,10 @@
 import React from 'react'
 
+type PageHeadingProps = {
+  name: string;
+  text: string;
+};
+
 const PageHeading = ({ name, text }: PageHeadingProps) => {
   return (
     <div className='heading-cnt pt-[150px] w-[1440px] max-w-[90%] flex justify-start items-center'>
