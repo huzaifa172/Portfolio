@@ -1,10 +1,11 @@
 "use client";
 import React from 'react'
+import Image from 'next/image';
 
 import { motion } from "framer-motion";
 import Button from './Button';
 
-
+const MotionImage = motion(Image);
 const AllProjects = () => {
   return (
     // rarly flex and padding are used with tailwind 
@@ -12,7 +13,9 @@ const AllProjects = () => {
         <div className='project-parent'>
       <div className='project-cnt'>
 
-      <motion.img 
+      <MotionImage 
+      width={100}
+      height={100}
       src='/backgroundsdots.png'
       alt='Left Image'
       className='bg-image-left'
@@ -20,7 +23,9 @@ const AllProjects = () => {
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.5}}
       /> 
-      <motion.img 
+      <MotionImage 
+      width={100}
+      height={100}
       src='/third-bg.png'
       alt='Left Image'
       className='bg-image-right'

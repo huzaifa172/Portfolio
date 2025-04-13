@@ -1,16 +1,20 @@
 'use client';
 import React from 'react'
+import Image  from 'next/image';
+
 import { motion } from 'framer-motion';
 import Button from './Button';
 
-
+const MotionImage = motion(Image);
 
 
 const Aboutme = () => {
   return (
     <>
     <div className='about-cnt max-w-[1440px]'>
-      <motion.img 
+      <MotionImage
+      width={100}
+      height={100}
       src='/backgroundsdots.png'
       alt='Left Image'
       className='bg-image-left'
@@ -18,7 +22,9 @@ const Aboutme = () => {
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.5}}
       /> 
-      <motion.img 
+      <MotionImage
+      width={100}
+      height={100}
       src='/third-bg.png'
       alt='Right Image'
       className='bg-image-right'
@@ -37,17 +43,19 @@ const Aboutme = () => {
           <p>Hello, its Huzaifa iqbal!
     <br></br>
     <br></br>
-    From the streets of rural Sindh to building digital solutions with the MERN Stack, WordPress, and SEO, my journey isn&apos;t just about code — it&apos;s about creating opportunities where none existed. As co-founder of Hexavibe Digital Solutions, I blend tech and hustle to build products that solve real problems, tell stories, and spark growth. I don&apos;t just develop websites — I design digital revolutions, one project at a time.
+    From the streets of rural Sindh to building digital solutions with the MERN Stack, WordPress, and SEO, my journey is not just about code — it is about creating opportunities where none existed. As co-founder of Hexavibe Digital Solutions, I blend tech and hustle to build products that solve real problems, tell stories, and spark growth. I do not just develop websites — I design digital revolutions, one project at a time.
           <br></br>
           <br></br>
 
-          Whether it's launching a startup, boosting a local business, or building a custom web app, I focus on delivering results that matter. I believe in clean code, clear purpose, and continuous learning — because the web doesn&apos;t wait, and neither do I.
+          Whether it's launching a startup, boosting a local business, or building a custom web app, I focus on delivering results that matter. I believe in clean code, clear purpose, and continuous learning — because the web does not wait, and neither do I.
 
 </p>
             <Button label="Read more "/>
           </div>
           <div className="pic relative">
-          <motion.img 
+          <MotionImage
+          width={100}
+          height={100}
       src='/backgroundsdots.png'
       alt='big-dots'
       className='big-dots'
@@ -55,7 +63,9 @@ const Aboutme = () => {
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.5}}
       /> 
-      <motion.img 
+      <MotionImage
+      width={100}
+      height={100}
       src='/aboutme2.png'
       alt='small-dots'
       className='small-dots'
@@ -64,7 +74,9 @@ const Aboutme = () => {
       transition={{duration: 0.5}}
       /> 
 
-    <motion.img 
+    <MotionImage
+    width={400}
+    height={400}
     src='/aboutmemain.png'
     alt='main'
     className='main-pic'
