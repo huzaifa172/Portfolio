@@ -1,11 +1,16 @@
 "use client";
 import React from 'react'
+import Image from 'next/image';
 import { motion } from 'framer-motion';
+
+const MotionImage = motion(Image);
 const AboutSkills = () => {
   return (
     <>
     <div className='about-cnt max-w-[1440px]'>
-      <motion.img 
+      <MotionImage
+      width={100}
+      height={100} 
       src='/backgroundsdots.png'
       alt='Left Image'
       className='bg-image-left'
@@ -13,7 +18,9 @@ const AboutSkills = () => {
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.5}}
       /> 
-      <motion.img 
+      <MotionImage
+      width={100}
+      height={100} 
       src='/third-bg.png'
       alt='Right Image'
       className='bg-image-right'
@@ -42,7 +49,9 @@ const AboutSkills = () => {
 
           </div>
           <div className="pic relative">
-          <motion.img 
+          <MotionImage
+          width={100}
+      height={100} 
       src='/backgroundsdots.png'
       alt='big-dots'
       className='big-dots'
@@ -50,7 +59,9 @@ const AboutSkills = () => {
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.5}}
       /> 
-      <motion.img 
+      <MotionImage
+      width={100}
+      height={100} 
       src='/aboutme2.png'
       alt='small-dots'
       className='small-dots'
@@ -59,7 +70,9 @@ const AboutSkills = () => {
       transition={{duration: 0.5}}
       /> 
 
-    <motion.img 
+    <MotionImage
+    width={100}
+      height={100} 
     src='/aboutmemain.png'
     alt='main'
     className='main-pic'
