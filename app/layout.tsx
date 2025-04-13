@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Huzaifa Iqbal Portfolio",
     images: [
       {
-        url: "https://www.huzaifa-iqbal.com/",
+        url: "https://www.huzaifa-iqbal.com/icons/favicon.png",
         width: 1200,
         height: 630,
         alt: "Huzaifa Iqbal Portfolio",
