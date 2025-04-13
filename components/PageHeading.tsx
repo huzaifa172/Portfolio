@@ -1,12 +1,12 @@
 import React from 'react'
 
-const PageHeading = (props : any) => {
+const PageHeading = ({ name, text }: PageHeadingProps) => {
   return (
     <div className='heading-cnt pt-[150px] w-[1440px] max-w-[90%] flex justify-start items-center'>
        
        
        <div className="top">
-        <div><h3><span>/</span>{props.name}</h3><span className='text'>{props.text}</span></div>
+        <div><h3><span>/</span>{name}</h3><span className='text'>{text}</span></div>
       </div>
       
 
