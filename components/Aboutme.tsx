@@ -37,11 +37,11 @@ const Aboutme = () => {
           <p>Hello, its Huzaifa iqbal!
     <br></br>
     <br></br>
-    From the streets of rural Sindh to building digital solutions with the MERN Stack, WordPress, and SEO, my journey isn’t just about code — it’s about creating opportunities where none existed. As co-founder of Hexavibe Digital Solutions, I blend tech and hustle to build products that solve real problems, tell stories, and spark growth. I don’t just develop websites — I design digital revolutions, one project at a time.
+    From the streets of rural Sindh to building digital solutions with the MERN Stack, WordPress, and SEO, my journey isn&apos;t just about code — it&apos;s about creating opportunities where none existed. As co-founder of Hexavibe Digital Solutions, I blend tech and hustle to build products that solve real problems, tell stories, and spark growth. I don&apos;t just develop websites — I design digital revolutions, one project at a time.
           <br></br>
           <br></br>
 
-          Whether it's launching a startup, boosting a local business, or building a custom web app, I focus on delivering results that matter. I believe in clean code, clear purpose, and continuous learning — because the web doesn’t wait, and neither do I.
+          Whether it's launching a startup, boosting a local business, or building a custom web app, I focus on delivering results that matter. I believe in clean code, clear purpose, and continuous learning — because the web doesn&apos;t wait, and neither do I.
 
 </p>
             <Button label="Read more "/>
