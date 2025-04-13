@@ -2,7 +2,7 @@
 import React from 'react'
 import Button from './Button'
 import { motion } from "framer-motion";
-
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -28,10 +28,10 @@ const HeroSection = () => {
     >
   
         <div className="hero-child second-child h-full  flex flex-col justify-center relative w-[100%] flex flex-col justify-center ">
-            <img className='w-full' src="/heroimg.png" alt="hero Image"/>
-          <img className='top-img' src="/backgroundsdots.png" alt="img" />
+            <Image className='w-full' src="/heroimg.png" alt="hero Image" width={400} height={400}/>
+          {/* <Image className='top-img' src="/backgroundsdots.png" alt="img"  width={80} height={80}/> */}
           <div className="status-ctn flex gap-[10px] items-center">
-            <img src="/rectangleHero.png" alt="img" />
+            <Image src="/rectangleHero.png" alt="img"  width={20} height={20}/>
             <p>Currently working on<span> Portfolio</span></p>
           </div>
         </div>

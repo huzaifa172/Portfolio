@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-
+import Image from 'next/image';
 import { motion } from "framer-motion";
 import Button from './Button';
 
@@ -36,7 +36,7 @@ const Project = () => {
         
         
         <div className='box'>
-            <img src="/project1.jpg" alt="" />
+            <Image width={330} height={250} src="/project1.jpg" alt="" />
             <p>HTML SCSS Python Flask</p>
             <div className='box-child'>
               <h4>ChertNode</h4>
@@ -50,7 +50,7 @@ const Project = () => {
 
 
         <div className='box'>
-            <img src="/project2.jpg" alt="" />
+            <Image width={330} height={250} src="/project2.jpg" alt="" />
             <p>React Express Discord.js Node.js HTML SCSS Python Flask</p>
             <div className='box-child'>
               <h4>ProtectX</h4>
@@ -62,7 +62,7 @@ const Project = () => {
 
 
         <div className='box'>
-            <img src="/project3.jpg" alt="" />
+            <Image width={330} height={250} src="/project3.jpg" alt="" />
             <p>CSS Express Node.js</p>
             <div className='box-child'>
               <h4>Kahoot Answers Viewer</h4>
@@ -75,7 +75,7 @@ const Project = () => {
 
 
         <div className='box'>
-            <img src="/portfolio-project.png" alt="" />
+            <Image width={330} height={250} src="/portfolio-project.png" alt="" />
             <p>Vue Ts Less </p>
             <div className='box-child'>
               <h4>Portfolio</h4>
@@ -87,7 +87,7 @@ const Project = () => {
 
 
         <div className='box'>
-            <img src="/fourth-project.png" alt="" />
+            <Image width={330} height={250} src="/fourth-project.png" alt="" />
             <p>HTML CSS JS </p>
             <div className='box-child'>
               <h4>Kotick Bot</h4>

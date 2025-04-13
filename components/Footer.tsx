@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-
+import Image from 'next/image';
 const Footer = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="first-child w-[50%] flex flex-col gap-[20px] ">
         <div className="logo-cnt flex justify-between  max-w-[400px]">
         <div className="logo flex justify-start gap-[10px]">
-          <img src="/logo.png" alt="LOGO" />
+          <Image width={30} height={30} src="/logo.png" alt="LOGO" />
           <p className='logo-text'>huzaifa iqbal</p>
         </div>
         <p>huzaifaiqbal5554@gmail.com</p>
@@ -20,9 +20,9 @@ const Footer = () => {
       <div className="second-child flex flex-col justify-center items-center">
         <h3>Media</h3>
         <div className="media flex justify-center gap-[10px]">
-          <img src="/github.png" alt="" />
-          <img src="/justdiscord.png" alt="" />
-          <img src="/figma.png" alt="" />
+          <Image width={30} height={30} src="/github.png" alt="" />
+          <Image width={30} height={30} src="/justdiscord.png" alt="" />
+          <Image width={30} height={30} src="/figma.png" alt="" />
         </div>
       </div>
       </div>

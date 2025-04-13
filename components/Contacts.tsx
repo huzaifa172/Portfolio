@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 
 const Contacts = () => {
   return (
@@ -28,19 +28,19 @@ const Contacts = () => {
 
   <div className="details">
      <p>
-     Let’s turn your next big idea into a digital reality — the kind people don’t forget.</p> 
+     Let us turn your next big idea into a digital reality — the kind people do not forget.</p> 
   </div>
   <div className="message-me">
     <div>
       <h4>Messsage me here </h4>
       <div className='child-message
       flex justify-start items-center gap-[5px]'>
-      <img src="/justdiscord.png" alt="discord" />
+      <Image src="/justdiscord.png" alt="discord" width={32} height={32} />
       <p>!Elias384615</p>
       </div>
 
       <div className='child-message flex justify-start items-center gap-[5px]'>
-      <img src="/justemail.png" alt="Email" />
+      <Image src="/justemail.png" alt="Email" width={32} height={32} />
       <p>Elias@contact.com</p>
       </div>
 

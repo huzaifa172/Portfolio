@@ -1,7 +1,7 @@
 "use client" ; 
 import React from 'react'
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 
 const Quote = () => {
   return (
@@ -14,11 +14,11 @@ const Quote = () => {
   
  <div className='pt-[100px] pb-[100px] flex flex-col items-end'>
  <div className='qoute-cnt w-[712px] display flex flex-col relative'>
-      <img src="/qoutation.png" alt="qoutation" />
+      <Image width={20} height={20} src="/qoutation.png" alt="qoutation" />
       <div>
         <h3>Code isn’t just syntax — it’s a tool to solve real-world problems and empower communities.</h3>
       </div>
-      <img className='second-quot' src="/qoutation.png" alt="qoutation" />
+      <Image width={20} height={20} className='second-quot' src="/qoutation.png" alt="qoutation" />
 
 
     </div>

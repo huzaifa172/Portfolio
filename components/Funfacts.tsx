@@ -46,7 +46,7 @@ const Funfacts = () => {
       <MotionImage 
       width={100}
       height={100}
-      src='/funfacts2.png'
+      src='/skills1.png'
       alt='first-sq'
       className='first-sq'
       initial={{opacity: 0 , x: 30}}
@@ -56,7 +56,7 @@ const Funfacts = () => {
       <MotionImage 
       width={100}
       height={100}
-      src='/funfacts1.png'
+      src='/skills2.png'
       alt='second-sq'
       className='second-sq'
       initial={{opacity: 0 , y: -30}}
