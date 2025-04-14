@@ -32,7 +32,7 @@ const HeroSection = () => {
           {/* <Image className='top-img' src="/backgroundsdots.png" alt="img"  width={80} height={80}/> */}
           <div className="status-ctn flex gap-[10px] items-center">
             <Image src="/rectangleHero.png" alt="img"  width={20} height={20}/>
-            <p>Currently working on<span> Portfolio</span></p>
+            <p>Currently working on<span> Telegram Mini Apps & bots</span></p>
           </div>
         </div>
         </motion.div>  
