@@ -31,7 +31,7 @@ const SmallProjects = () => {
             <div className='box-child'>
               <h4>Bot Boilerplate</h4>
               <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button label="Github"/>
+              <Button url='/' label="Github"/>
             </div>
         </div>
 
@@ -41,7 +41,7 @@ const SmallProjects = () => {
             <div className='box-child'>
               <h4>Bot Boilerplate</h4>
               <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button label="Github"/>
+              <Button url='/' label="Github"/>
             </div>
         </div>
 
@@ -50,7 +50,7 @@ const SmallProjects = () => {
             <div className='box-child'>
               <h4>Bot Boilerplate</h4>
               <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button label="Github"/>
+              <Button url='/' label="Github"/>
             </div>
         </div>
 
@@ -59,7 +59,7 @@ const SmallProjects = () => {
             <div className='box-child'>
               <h4>Bot Boilerplate</h4>
               <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button label="Github"/>
+              <Button url='/' label="Github"/>
             </div>
         </div>
         
@@ -68,7 +68,7 @@ const SmallProjects = () => {
             <div className='box-child'>
               <h4>Bot Boilerplate</h4>
               <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button label="Github"/>
+              <Button url='/' label="Github"/>
             </div>
         </div>
         
@@ -77,7 +77,7 @@ const SmallProjects = () => {
             <div className='box-child'>
               <h4>Bot Boilerplate</h4>
               <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button label="Github"/>
+              <Button url='/' label="Github"/>
             </div>
         </div>
         
@@ -86,7 +86,7 @@ const SmallProjects = () => {
             <div className='box-child'>
               <h4>Bot Boilerplate</h4>
               <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button label="Github"/>
+              <Button url='/' label="Github"/>
             </div>
         </div>
 

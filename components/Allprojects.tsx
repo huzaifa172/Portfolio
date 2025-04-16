@@ -41,69 +41,106 @@ const AllProjects = () => {
 
 
       
-      <div className="project-boxes gap-[20px] ">
+      <div className="project-boxes gap-[30px]">
         
         
         
         <div className='box'>
-            <Image src="/project1.jpg" alt="" width={330} height={250}/>
-            <p>HTML SCSS Python Flask</p>
+            <Image width={330} height={250} src="/freeai.png" alt="" />
+            <p>Next.js TypeScript React.js Tailwind CSS Three.js JavaScriptES6+ HTML/CSS </p>
             <div className='box-child'>
-              <h4>ChertNode</h4>
-              <p>Minecraft servers hosting</p>
+              <h4>FreeAi </h4>
+              <p>Free Ai Image and Voice speech Generator </p>
               <div className='pb-[5px]'><Button label="Live"
-              />   </div>
-              <Button label="Cached"/>
+              url='' />   </div>
+              <Button label="Cached" url="https://free-ai-one.vercel.app/"/>
             </div>
         </div>
 
 
 
         <div className='box'>
-            <Image src="/project2.jpg" alt="" width={330} height={250}/>
-            <p>React Express Discord.js Node.js HTML SCSS Python Flask</p>
+            <Image width={330} height={250} src="/vuexy.png" alt="" />
+            <p>React Webpack Hooks Custom Components CSS js Bootstrap  Next.js </p>
             <div className='box-child'>
-              <h4>ProtectX</h4>
-              <p>Discord anti-crash bot</p>
-              <Button label="Live"
+              <h4>Vuaxy</h4>
+              <p>vuexy landing page designed for a SaaS agency</p>
+              <Button label="Live" url="https://vuexy-landing-page-six.vercel.app/"
               />              
             </div>
         </div>
 
 
         <div className='box'>
-            <Image src="/project3.jpg" alt="" width={330} height={250}/>
-            <p>CSS Express Node.js</p>
+            <Image width={330} height={250} src="/nft.png" alt="" />
+            <p>React.js Tailwind  Next.js CSS TypeScript React Icons</p>
             <div className='box-child'>
-              <h4>Kahoot Answers Viewer</h4>
-              <p>Get answers to you kahoot quiz</p>
+              <h4>NFT</h4>
+              <p>A Landing page for a NFT agnecy</p>
               <Button label="Live"
-              />     
+             url='https://nftlandingpage-nu.vercel.app/'  />     
             </div>
         </div>
 
 
 
         <div className='box'>
-            <Image src="/portfolio-project.png" alt="" width={330} height={250}/>
-            <p>Vue Ts Less </p>
+            <Image width={330} height={250} src="/pandatap.png" alt="" />
+            <p>React.js styled-components Material-UI Node.js Express.js MongoDB Mongoose Cloudinary Multer Telegram Bot API Vercel Railway</p>
+            <div className='box-child'>
+              <h4>TG Bot And Mini app</h4>
+              <p>i built tg bot with a mini app with collegs</p>
+              <Button label="Live"
+             url='https://demo-bot-frontend.vercel.app/' />     
+            </div>
+        </div>
+
+        <div className='box'>
+            <Image width={330} height={250} src="/myportfolio.png" alt="" />
+            <p>React.js TailwindCSS Framer Motion GSAP  Multer Next.js TypeScript CSS JavaScript</p>
             <div className='box-child'>
               <h4>Portfolio</h4>
-              <p>Your are using it un</p>
+              <p>Personal Portfolio</p>
               <Button label="Live"
-              />     
+             url='https://www.huzaifa-iqbal.com/' />     
             </div>
         </div>
 
 
         <div className='box'>
-            <Image src="/fourth-project.png" alt=""  width={330} height={250}/>
-            <p>HTML CSS JS </p>
+            <Image width={330} height={250} src="/uber.png" alt="" />
+            <p>React.js TailwindCSS Framer Motion Node.js Express.js MongoDB Mongoose Socket.io Google Maps API JWT Redux</p>
             <div className='box-child'>
-              <h4>Kotick Bot</h4>
-              <p>Multi-function discord bot</p>
+              <h4>Ubber Clone</h4>
+              <p>to enhance my skills (ongoing)</p>
               <Button label="Live"
-              />     
+             url='https://99x.findton.app/' />     
+            </div>
+        </div>
+
+
+
+        <div className='box'>
+            <Image width={330} height={250} src="/99x.png" alt="" />
+            <p>Wordpress Elementor Addons CMS</p>
+            <div className='box-child'>
+              <h4>99x Automation</h4>
+              <p>Its a agency about Ai Agents</p>
+              <Button label="Live"
+             url='https://99x.findton.app/' />     
+            </div>
+        </div>
+
+
+
+        <div className='box'>
+            <Image width={330} height={250} src="/safoundation.png" alt="" />
+            <p>Wordpress Elementor Addons CMS Plugins</p>
+            <div className='box-child'>
+              <h4>Sa Foundation</h4>
+              <p>it is a charity foundation in interior sindh</p>
+              <Button label="Live"
+             url='https://safoundation.site/' />     
             </div>
         </div>
 

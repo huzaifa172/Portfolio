@@ -1,11 +1,20 @@
 "use client";
+type ButtonProps = {
+  label: string;
+  url :string;
+  }
+
+import Link from 'next/link';
 import React from 'react'
-const Button = ({ label }: { label: string }) => {
+const Button = ({ label , url }: ButtonProps) => {
   return (
-    <><div className='btn-cnt'>
-        <button>{label}</button>
-      
+    <>
+     <Link href={url}>
+    <div className='btn-cnt'>
+        <button>{label}</button>      
     </div>
+    </Link>
+
     <style jsx>
     {`
       .btn-cnt{
@@ -21,6 +30,7 @@ const Button = ({ label }: { label: string }) => {
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      curser: pointer;
       }
     `}
     </style>

@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image';
 import { motion } from "framer-motion";
 import Button from './Button';
+import Link from 'next/link';
 
 
 const Project = () => {
@@ -29,75 +30,61 @@ const Project = () => {
       /> 
       <div className="top">
         <div><h3><span>#</span>project</h3><span className='line'></span></div>
-        <div><a href="#">View All </a></div>
+        <div><Link href="/projects">View All </Link></div>
       </div>
       <div className="project-boxes gap-[30px]">
         
         
         
         <div className='box'>
-            <Image width={330} height={250} src="/project1.jpg" alt="" />
-            <p>HTML SCSS Python Flask</p>
+            <Image width={330} height={250} src="/freeai.png" alt="" />
+            <p>Next.js TypeScript React.js Tailwind CSS Three.js JavaScriptES6+ HTML/CSS </p>
             <div className='box-child'>
-              <h4>ChertNode</h4>
-              <p>Minecraft servers hosting</p>
+              <h4>FreeAi </h4>
+              <p>Free Ai Image and Voice speech Generator </p>
               <div className='pb-[5px]'><Button label="Live"
-              />   </div>
-              <Button label="Cached"/>
+              url='' />   </div>
+              <Button label="Cached" url="https://free-ai-one.vercel.app/"/>
             </div>
         </div>
 
 
 
         <div className='box'>
-            <Image width={330} height={250} src="/project2.jpg" alt="" />
-            <p>React Express Discord.js Node.js HTML SCSS Python Flask</p>
+            <Image width={330} height={250} src="/vuexy.png" alt="" />
+            <p>React Webpack Hooks Custom Components CSS js Bootstrap  Next.js </p>
             <div className='box-child'>
-              <h4>ProtectX</h4>
-              <p>Discord anti-crash bot</p>
-              <Button label="Live"
+              <h4>Vuaxy</h4>
+              <p>vuexy landing page designed for a SaaS agency</p>
+              <Button label="Live" url="https://vuexy-landing-page-six.vercel.app/"
               />              
             </div>
         </div>
 
 
         <div className='box'>
-            <Image width={330} height={250} src="/project3.jpg" alt="" />
-            <p>CSS Express Node.js</p>
+            <Image width={330} height={250} src="/nft.png" alt="" />
+            <p>React.js Tailwind  Next.js CSS TypeScript React Icons</p>
             <div className='box-child'>
-              <h4>Kahoot Answers Viewer</h4>
-              <p>Get answers to you kahoot quiz</p>
+              <h4>NFT</h4>
+              <p>A Landing page for a NFT agnecy</p>
               <Button label="Live"
-              />     
+             url='https://nftlandingpage-nu.vercel.app/'  />     
             </div>
         </div>
 
 
 
         <div className='box'>
-            <Image width={330} height={250} src="/portfolio-project.png" alt="" />
-            <p>Vue Ts Less </p>
+            <Image width={330} height={250} src="/pandatap.png" alt="" />
+            <p>React.js styled-components Material-UI Node.js Express.js MongoDB Mongoose Cloudinary Multer Telegram Bot API Vercel Railway</p>
             <div className='box-child'>
-              <h4>Portfolio</h4>
-              <p>Your are using it un</p>
+              <h4>TG Bot And Mini app</h4>
+              <p>i built tg bot with a mini app with collegs</p>
               <Button label="Live"
-              />     
+             url='https://demo-bot-frontend.vercel.app/' />     
             </div>
         </div>
-
-
-        <div className='box'>
-            <Image width={330} height={250} src="/fourth-project.png" alt="" />
-            <p>HTML CSS JS </p>
-            <div className='box-child'>
-              <h4>Kotick Bot</h4>
-              <p>Multi-function discord bot</p>
-              <Button label="Live"
-              />     
-            </div>
-        </div>
-
-
 
       </div>
 

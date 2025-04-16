@@ -47,7 +47,7 @@ const Aboutme = () => {
               <br /><br />
               Whether it&apos;s launching a startup, boosting a local business, or building a custom web app, I focus on delivering results that matter. I believe in clean code, clear purpose, and continuous learning — because the web does not wait, and neither do I.
             </p>
-            <Button label="Read more " />
+            <Button label="Read more "  url="/"/>
           </div>
 
           <div className="pic relative">
