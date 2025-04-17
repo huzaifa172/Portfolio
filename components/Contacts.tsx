@@ -32,16 +32,16 @@ const Contacts = () => {
   </div>
   <div className="message-me">
     <div>
-      <h4>Messsage me here </h4>
+      <h4>Contact  me here </h4>
       <div className='child-message
       flex justify-start items-center gap-[5px]'>
-      <Image src="/justdiscord.png" alt="discord" width={32} height={32} />
-      <p>!Elias384615</p>
+      <Image src="/github.png" alt="discord" width={32} height={32} />
+      <p>huzaifa172</p>
       </div>
 
       <div className='child-message flex justify-start items-center gap-[5px]'>
       <Image src="/justemail.png" alt="Email" width={32} height={32} />
-      <p>Elias@contact.com</p>
+      <p>huzaifaiqbal5554@gmail.com</p>
       </div>
 
 

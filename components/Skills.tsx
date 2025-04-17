@@ -67,7 +67,7 @@ const Skills = () => {
           
           <div className="languages box">
             <h4 className='box-heading'>Languages</h4>
-            <p className='box-para'>TypeScript Lua Python JavaScript </p>
+            <p className='box-para'>HTML CSS JavaScript TypeScript</p>
           </div>
        
         </div>
@@ -75,12 +75,12 @@ const Skills = () => {
 
         <div className="db box">
             <h4 className='box-heading'> Database </h4>
-            <p className='box-para'>SQLite PostgreSQL Mongo</p>
+            <p className='box-para'>MongoDB Mongoose</p>
           </div>
           
         <div className="others box ">
           <h4 className='box-heading'>Others</h4>
-          <p className='box-para'>HTML CSS EJS SCSS REST Jinja</p>
+          <p className='box-para'>Canva Trello Notion Netlify cPanel Firebase Linux Command Line Bash npm pnpm Yarn JSON JWT APIs Responsiveness Testing Cross-Browser Compatibility Chrome DevTools</p>
         </div>
         
 
@@ -89,17 +89,32 @@ const Skills = () => {
 
         <div className="tools box">
             <h4 className='box-heading'>Tools</h4>
-            <p className='box-para'>VSCode Neovime Linux Figma XFCE Arch Git FontAwesome</p>
+            <p className='box-para'>Git GitHub Figma VS Code Vercel Railway Cloudinary Multer Telegram Bots API REST APIs MiniApps</p>
           </div>
        
 
         <div className="fw box">
           <h4 className='box-heading'>FrameWorks</h4>
-          <p className='box-para'>React Vue Disnake Discord.js Flask Express.js </p>
-        </div>
-      
+          <p className='box-para'>React.js Next.js Tailwind CSS GSAP Framer Motion Redux Node.js Express.js</p>
+        </div>    
 
         </div>
+
+      <div className="non-tech flex flex-col gap-[16px]">
+      
+      <div className="cms box">
+          <h4 className='box-heading'>CMS</h4>
+          <p className='box-para'>(Good at) WordPress Shopify</p>
+        </div>
+      
+        <div className="cms box">
+          <h4 className='box-heading'>SEO Skills</h4>
+          <p className='box-para'>Off page Technical SEO Google Search Console Speed Optimization</p>
+        </div>
+      
+      </div>
+
+
       </div>
 
     </div>

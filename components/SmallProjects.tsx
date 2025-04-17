@@ -27,70 +27,42 @@ const SmallProjects = () => {
         <div className="boxes">
            
         <div className='box'>
-            <p>Discord.js TS JS</p>
+            <p>React Next.js Ts Js framer-motion tailwindcss use-click-away</p>
             <div className='box-child'>
-              <h4>Bot Boilerplate</h4>
-              <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button url='/' label="Github"/>
+              <h4>Animated Side bar</h4>
+              <p>its just a simple best ux animated side bar </p>
+              <Button url='https://github.com/huzaifa172/animated-sidebar' label="Github"/>
             </div>
         </div>
 
 
         <div className='box'>
-            <p>Discord.js TS JS</p>
+            <p>Flask Gemini-API React Next.js Ts Jstailwindcss</p>
             <div className='box-child'>
-              <h4>Bot Boilerplate</h4>
-              <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button url='/' label="Github"/>
+              <h4>AI Powered Chat widget</h4>
+              <p>for a Charch Whole life</p>
+              <Button url='https://github.com/huzaifa172/chat-widget-WholeLife' label="Github"/>
             </div>
         </div>
 
         <div className='box'>
-            <p>Discord.js TS JS</p>
+            <p>JavaScript </p>
             <div className='box-child'>
-              <h4>Bot Boilerplate</h4>
-              <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button url='/' label="Github"/>
+              <h4>Js Debouncing </h4>
+              <p>i learnt why debouncing is important</p>
+              <Button url='https://github.com/huzaifa172/debouncing-practics' label="Github"/>
             </div>
         </div>
 
         <div className='box'>
-            <p>Discord.js TS JS</p>
+            <p>JavaScript json react.js next.js</p>
             <div className='box-child'>
-              <h4>Bot Boilerplate</h4>
-              <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button url='/' label="Github"/>
+              <h4> inventory list </h4>
+              <p>its just a for POS</p>
+              <Button url='https://github.com/huzaifa172/inventory-list-' label="Github"/>
             </div>
         </div>
         
-        <div className='box'>
-            <p>Discord.js TS JS</p>
-            <div className='box-child'>
-              <h4>Bot Boilerplate</h4>
-              <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button url='/' label="Github"/>
-            </div>
-        </div>
-        
-        <div className='box'>
-            <p>Discord.js TS JS</p>
-            <div className='box-child'>
-              <h4>Bot Boilerplate</h4>
-              <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button url='/' label="Github"/>
-            </div>
-        </div>
-        
-        <div className='box'>
-            <p>Discord.js TS JS</p>
-            <div className='box-child'>
-              <h4>Bot Boilerplate</h4>
-              <p>Start creating scalable discord.js bot with typescript in seconds </p>
-              <Button url='/' label="Github"/>
-            </div>
-        </div>
-
-
         </div>
         <style>
           {`

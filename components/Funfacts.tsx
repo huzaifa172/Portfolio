@@ -16,13 +16,12 @@ const Funfacts = () => {
       <h3><span>#</span>funfacts</h3><span className='line'></span>
       
       </div>
-    <div><a href="#">View All </a>
-    </div>
+    <div></div>
     </div>
     
     
-    <div className='second flex w-full flex justify-between'>
-      <div className="pattrens w-[50%] relative">
+    <div className='second flex w-full flex justify-between gap-[20px]'>
+      {/* <div className="pattrens w-[50%] relative">
       <MotionImage 
       width={100}
       height={100}
@@ -74,75 +73,86 @@ const Funfacts = () => {
       transition={{duration: 0.5}}
       />
       </div>
+ */}
+
+
+
       <div className="funfacts-boxes flex justify-end gap-[16px]">
         <div className="lang-boxes flex flex-col gap-[16px]">
           
-          <div className="languages box">
-            <h4 className='box-heading'>Languages</h4>
-            <p className='box-para'>TypeScript Lua Python JavaScript </p>
-          </div>
-       
+            <h4 className='box-heading'>I’m a goal-setter by nature — whether it's in life or on the football field.</h4>
         </div>
         <div className="db-boxes flex flex-col gap-[16px]">
 
-        <div className="db box">
-            <h4 className='box-heading'> Database </h4>
-            <p className='box-para'>SQLite PostgreSQL Mongo</p>
-          </div>
-          
-        <div className="others box ">
-          <h4 className='box-heading'>Others</h4>
-          <p className='box-para'>HTML CSS EJS SCSS REST Jinja</p>
+            <h4 className='box-heading'>Nothing beats a good cup of chai, especially when paired with deep thoughts or good company.</h4>
         </div>
         
-
+      <div className="db-boxes flex flex-col gap-[16px]">    
+          <h4 className='box-heading'>I love planning things out — be it projects, trips, or my next big move.</h4>
         </div>
-        <div className="tools-boxes flex flex-col gap-[16px]">
+ </div>
 
-        <div className="tools box">
-            <h4 className='box-heading'>Tools</h4>
-            <p className='box-para'>VSCode Neovime Linux Figma XFCE Arch Git FontAwesome</p>
-          </div>
-       
 
-        <div className="fw box">
-          <h4 className='box-heading'>FrameWorks</h4>
-          <p className='box-para'>React Vue Disnake Discord.js Flask Express.js </p>
-        </div>
-      
 
-        </div>
-      </div>
-
+        
     </div>
+    <div className='funfacts-boxes flex justify-end gap-[16px]  pt-10'>
 
+<div className="db-boxes flex flex-col gap-[16px]">    
+<h4 className='box-heading'>Traveling excites me; I enjoy exploring new places and cultures.</h4>
+</div>
+
+<div className="db-boxes flex flex-col gap-[16px]">    
+<h4 className='box-heading'>I prefer calm over chaos — which is probably why I don’t listen to music most of the time.</h4>
+</div>
+
+
+
+
+
+</div>
+
+
+<div className='funfacts-boxes flex justify-end gap-[16px] pt-10'>
+
+<div className="db-boxes flex flex-col gap-[16px]">    
+<h4 className='box-heading'>I believe every challenge is just a goal waiting to be scored.</h4>
+</div>
+
+
+
+<div className="db-boxes flex flex-col gap-[16px]">    
+<h4 className='box-heading'>My favorite type of productivity is the kind that starts with a clear mind and a hot cup of tea.</h4>
+</div>
+
+</div>
 
     </div>
       <style>
         {`
-          .pattrens .first-dot{
+         .funfacts-cnt .pattrens .first-dot{
               position: absolute;
               top: 40%;
               left: 0%;
           }
-          .pattrens .second-dot{
+         .funfacts-cnt .pattrens .second-dot{
             position: absolute;
             top: 50%;
             right: 50%;
           }
-          .pattrens .first-sq{
+         .funfacts-cnt .pattrens .first-sq{
             width: 100px;
             position: absolute;
             top: 10%;
             right: 20%;
           }
-          .pattrens .second-sq{
+         .funfacts-cnt .pattrens .second-sq{
             width: 52px;
             position: absolute;
             top: 80%;
             right: 15%;
           }
-          .pattrens .hero-background{
+         .funfacts-cnt .pattrens .hero-background{
             position: absolute;
             top: 70%;
             left: 10%;
@@ -165,8 +175,8 @@ const Funfacts = () => {
           font-style: normal;
           font-weight: 600;
           line-height: normal;
-          padding: 0px 8px 8px 8px ;
-          border-bottom: 1px solid var(--gray, #ABB2BF);
+          padding: 15px;
+          border: 1px solid var(--gray, #ABB2BF);
 
           }
           .box-para{
