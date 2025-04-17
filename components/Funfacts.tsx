@@ -1,9 +1,6 @@
 "use client";
 import React from 'react'
-import Image from 'next/image';
-import { motion } from 'framer-motion';
 
-const MotionImage = motion(Image);
 
 const Funfacts = () => {
   return (
@@ -21,66 +18,11 @@ const Funfacts = () => {
     
     
     <div className='second flex w-full flex justify-between gap-[20px]'>
-      {/* <div className="pattrens w-[50%] relative">
-      <MotionImage 
-      width={100}
-      height={100}
-      src='/backgroundsdots.png'
-      alt='first-dot'
-      className='first-dot'
-      initial={{opacity: 0 , y: 30}}
-      animate={{opacity: 1, y: 0}}
-      transition={{duration: 0.5}}
-      />
-      <MotionImage 
-      width={100}
-      height={100}
-      src='/backgroundsdots.png'
-      alt='second-dot'
-      className='second-dot'
-      initial={{opacity: 0 , x: -30}}
-      animate={{opacity: 1, x: 0}}
-      transition={{duration: 0.5}}
-      />
-      <MotionImage 
-      width={100}
-      height={100}
-      src='/skills1.png'
-      alt='first-sq'
-      className='first-sq'
-      initial={{opacity: 0 , x: 30}}
-      animate={{opacity: 1, x: 0}}
-      transition={{duration: 0.5}}
-      />
-      <MotionImage 
-      width={100}
-      height={100}
-      src='/skills2.png'
-      alt='second-sq'
-      className='second-sq'
-      initial={{opacity: 0 , y: -30}}
-      animate={{opacity: 1, y: 0}}
-      transition={{duration: 0.5}}
-      />
-      <MotionImage 
-      width={100}
-      height={100}
-      src='/backgrounds1.png'
-      alt='hero-background'
-      className='hero-background'
-      initial={{opacity: 0 , y: -70}}
-      animate={{opacity: 1, y: 0}}
-      transition={{duration: 0.5}}
-      />
-      </div>
- */}
-
-
 
       <div className="funfacts-boxes flex justify-end gap-[16px]">
         <div className="lang-boxes flex flex-col gap-[16px]">
           
-            <h4 className='box-heading'>I’m a goal-setter by nature — whether it's in life or on the football field.</h4>
+            <h4 className='box-heading'>I&apos;m a goal-setter by nature — whether it&apos;s in life or on the football field.</h4>
         </div>
         <div className="db-boxes flex flex-col gap-[16px]">
 
@@ -103,7 +45,7 @@ const Funfacts = () => {
 </div>
 
 <div className="db-boxes flex flex-col gap-[16px]">    
-<h4 className='box-heading'>I prefer calm over chaos — which is probably why I don’t listen to music most of the time.</h4>
+<h4 className='box-heading'>I prefer calm over chaos — which is probably why I don&apos;t listen to music most of the time.</h4>
 </div>
 
 
@@ -116,7 +58,7 @@ const Funfacts = () => {
 <div className='funfacts-boxes flex justify-end gap-[16px] pt-10'>
 
 <div className="db-boxes flex flex-col gap-[16px]">    
-<h4 className='box-heading'>I believe every challenge is just a goal waiting to be scored.</h4>
+<h4 className='box-heading'>I believe every challenge is just a  goal waiting to be scored.</h4>
 </div>
 
 
