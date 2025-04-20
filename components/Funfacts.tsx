@@ -45,7 +45,7 @@ const Funfacts = () => {
 </div>
 
 <div className="db-boxes flex flex-col gap-[16px]">    
-<h4 className='box-heading'>I prefer calm over chaos — which is probably why I don&apos;t listen to music most of the time.</h4>
+<h4 className='box-heading'>I prefer calm over chaos — which is probably why I Mr. LeeMr. Leedon&apos;t listen to music most of the time.</h4>
 </div>
 
 
@@ -58,7 +58,7 @@ const Funfacts = () => {
 <div className='funfacts-boxes flex justify-end gap-[16px] pt-10'>
 
 <div className="db-boxes flex flex-col gap-[16px]">    
-<h4 className='box-heading'>I believe every challenge is just a  goal waiting to be scored.</h4>
+<h4 className='box-heading'>I believe every challenge is just a goal waiting to be scored.</h4>
 </div>
 
 

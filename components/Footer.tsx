@@ -51,7 +51,7 @@ const Footer = () => {
 
 
       <div className="bottom-bar w-full flex justify-center pb-[20px]">
-        <p>© Copyright 2025. Made by Huzaifa Iqbal Sindhi</p>
+        <p>© Copyright 2025 - judgment Day . built by Huzaifa Iqbal Sindhi</p>
       </div>
     </div>
     <style>

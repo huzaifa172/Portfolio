@@ -27,10 +27,10 @@ const Header = () => {
       <div className="menu">
         <ul className=' flex justify-center items-center gap-[32px]'>
         <li className='font-[16px] font-medium text-white'><Link href="/"><span className='text-[#C778DD]'>#</span>home</Link></li>
-        <li className='font-[16px] font-medium text-white'><span className='text-[#C778DD]'>#</span>works</li>
         <li className='font-[16px] font-medium text-white'>
           <Link href="/aboutme"><span className='text-[#C778DD]'>#</span>about-me</Link></li>
         <li className='font-[16px] font-medium text-white'><Link href="/projects"><span className='text-[#C778DD]'>#</span>projects</Link></li>
+        <li className='font-[16px] font-medium text-white'><Link href="/contact"><span className='text-[#C778DD]'>#</span>contact</Link></li>
         
         </ul>
       </div>
