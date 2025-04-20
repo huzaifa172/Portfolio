@@ -15,7 +15,7 @@ export default function Home() {
     <>
     
     <div className="main-cnt flex flex-col items-center relative">
-      <div className="fixed top-0 left-0"> <Media /></div>
+      <div className="fixed lg:top-0 left-0"> <Media /></div>
       <Header />
       <HeroSection />
       <Quote />

@@ -15,7 +15,7 @@ const Project = () => {
       <motion.img 
       src='/backgroundsdots.png'
       alt='Left Image'
-      className='bg-image-left'
+      className='bg-image-left z-0'
       initial={{opacity: 0 , y: -30}}
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.5}}
@@ -23,20 +23,20 @@ const Project = () => {
       <motion.img 
       src='/third-bg.png'
       alt='Left Image'
-      className='bg-image-right'
+      className='bg-image-right z-0'
       initial={{opacity: 0 , y: -30}}
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.5}}
       /> 
       <div className="top">
-        <div><h3><span>#</span>project</h3><span className='line'></span></div>
+        <div><h3><span>#</span>project</h3><span className='line hidden lg:block'></span></div>
         <div><Link href="/projects">View All </Link></div>
       </div>
       <div className="project-boxes gap-[30px]">
         
         
         
-        <div className='box'>
+        <div className='box z-[99999999] bg-[#282C33] '>
             <Image width={330} height={250} src="/freeai.png" alt="" />
             <p>Next.js TypeScript React.js Tailwind CSS Three.js JavaScriptES6+ HTML/CSS </p>
             <div className='box-child'>
@@ -50,7 +50,7 @@ const Project = () => {
 
 
 
-        <div className='box'>
+        <div className='box z-[99999999] bg-[#282C33]'>
             <Image width={330} height={250} src="/vuexy.png" alt="" />
             <p>React Webpack Hooks Custom Components CSS js Bootstrap  Next.js </p>
             <div className='box-child'>
@@ -62,7 +62,7 @@ const Project = () => {
         </div>
 
 
-        <div className='box'>
+        <div className='box z-[99999999] bg-[#282C33]'>
             <Image width={330} height={250} src="/nft.png" alt="" />
             <p>React.js Tailwind  Next.js CSS TypeScript React Icons</p>
             <div className='box-child'>
@@ -75,7 +75,7 @@ const Project = () => {
 
 
 
-        <div className='box'>
+        <div className='box z-[99999999] bg-[#282C33]'>
             <Image width={330} height={250} src="/pandatap.png" alt="" />
             <p>React.js styled-components Material-UI Node.js Express.js MongoDB Mongoose Cloudinary Multer Telegram Bot API Vercel Railway</p>
             <div className='box-child'>

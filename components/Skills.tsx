@@ -6,12 +6,11 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   return (
     <>
-    <div className='skills-cnt flex flex-col items-center justify-center w-[1440px] max-w-[90%]  pt-[100px] pb-[100px]'>
+    <div className='skills-cnt flex flex-col items-center justify-center w-[1440px] max-w-[90%]  pt-10 pb-10 lg:pb-25 lg:pt-25'>
 
-    
     <div className="top w-full flex justify-between pb-[50px]"> 
     <div>
-      <h3><span>#</span>Skills</h3><span className='line'></span>
+      <h3><span>#</span>Skills</h3><span className='line hidden lg:block'></span>
       
       </div>
     <div><a href="#">View All </a>
@@ -19,8 +18,8 @@ const Skills = () => {
     </div>
     
     
-    <div className='second flex w-full flex justify-between'>
-      <div className="pattrens w-[50%] relative">
+    <div className='second w-full md:w-2/3 flex justify-center lg:justify-between md:px-4'>
+      <div className="pattrens w-full lg:w-1/2 relative hidden lg:block">
       <motion.img 
       src='/backgroundsdots.png'
       alt='first-dot'
@@ -62,10 +61,10 @@ const Skills = () => {
       transition={{duration: 0.5}}
       />
       </div>
-      <div className="skills-boxes flex justify-end gap-[16px]">
-        <div className="lang-boxes flex flex-col gap-[16px]">
+      <div className="skills-boxes flex flex-col md:flex-row lg:flex-row justify-center lg:justify-end gap-[16px]">
+        <div className="lang-boxes flex flex-col gap-[16px] w-full">
           
-          <div className="languages box">
+          <div className="languages box w-full">
             <h4 className='box-heading'>Languages</h4>
             <p className='box-para'>HTML CSS JavaScript TypeScript</p>
           </div>
@@ -73,7 +72,7 @@ const Skills = () => {
         </div>
         <div className="db-boxes flex flex-col gap-[16px]">
 
-        <div className="db box">
+        <div className="db box w-full">
             <h4 className='box-heading'> Database </h4>
             <p className='box-para'>MongoDB Mongoose</p>
           </div>
@@ -87,13 +86,13 @@ const Skills = () => {
         </div>
         <div className="tools-boxes flex flex-col gap-[16px]">
 
-        <div className="tools box">
+        <div className="tools box w-full">
             <h4 className='box-heading'>Tools</h4>
             <p className='box-para'>Git GitHub Figma VS Code Vercel Railway Cloudinary Multer Telegram Bots API REST APIs MiniApps</p>
           </div>
        
 
-        <div className="fw box">
+        <div className="fw box w-full">
           <h4 className='box-heading'>FrameWorks</h4>
           <p className='box-para'>React.js Next.js Tailwind CSS GSAP Framer Motion Redux Node.js Express.js</p>
         </div>    
@@ -102,12 +101,12 @@ const Skills = () => {
 
       <div className="non-tech flex flex-col gap-[16px]">
       
-      <div className="cms box">
+      <div className="cms box w-full">
           <h4 className='box-heading'>CMS</h4>
           <p className='box-para'>(Good at) WordPress Shopify</p>
         </div>
       
-        <div className="cms box">
+        <div className="cms box w-full">
           <h4 className='box-heading'>SEO Skills</h4>
           <p className='box-para'>Off page Technical SEO Google Search Console Speed Optimization</p>
         </div>

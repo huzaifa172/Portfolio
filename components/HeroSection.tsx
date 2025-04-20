@@ -7,15 +7,15 @@ import Image from 'next/image';
 const HeroSection = () => {
   return (
    
-    <div className='hero-cnt w-[1440px] flex justify-center items-center h-full max-w-[90%]'><motion.div 
+    <div className='hero-cnt w-[1440px] flex flex-col lg:flex-row justify-center items-center h-full max-w-[90%]'><motion.div 
     initial={{ opacity: 0, y: 30 }}  // Start position
     animate={{ opacity: 1, y: 0 }}   // End position
     transition={{ duration: 0.5 }}   // Duration of animation
     className=' w-full'
     >
         <div className="hero-child w-[100%] flex flex-col justify-center gap-[20px]">
-            <h1 className=''>Huzaifa iqbal is a <span>Web developer</span> and <span>MERN Expert</span></h1>
-            <p>He Transforming Ideas into Scalable Web Platforms with MERN & WordPress.</p>
+            <h1 className='text-xl lg:text-3xl'>Huzaifa iqbal is a <span>Web developer</span> and <span>MERN Expert</span></h1>
+            <p className='text-sm lg:text-xl'>He Transforming Ideas into Scalable Web Platforms with MERN & WordPress.</p>
             <Button label="Contact me!!" url='/'/>      
         </div>
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
           {/* <Image className='top-img' src="/backgroundsdots.png" alt="img"  width={80} height={80}/> */}
           <div className="status-ctn flex gap-[10px] items-center">
             <Image src="/rectangleHero.png" alt="img"  width={20} height={20}/>
-            <p>Currently working on<span> Telegram Mini Apps & bots</span></p>
+            <p className='text-sm lg:text-xl'>Currently working on<span> Telegram Mini Apps & bots</span></p>
           </div>
         </div>
         </motion.div>  
@@ -45,7 +45,6 @@ const HeroSection = () => {
         .hero-cnt div h1{
           color: var(--white, #FFF);
         font-family: "Fira Code" , monospace;
-        font-size: 32px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -53,7 +52,6 @@ const HeroSection = () => {
         .hero-cnt div h1 span{
         color: var(--primary, #C778DD);
         font-family: "Fira Code" , monospace;
-        font-size: 32px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -61,7 +59,7 @@ const HeroSection = () => {
         .hero-cnt div p{
         color: var(--gray, #ABB2BF);
         font-family: "Fira Code" , monospace;
-        font-size: 16px;
+        
         font-style: normal;
         font-weight: 400;
         line-height: 25px; /* 156.25% */  
@@ -88,7 +86,6 @@ const HeroSection = () => {
         .status-ctn p span{
         color: #FFF;
         font-family: "Fira Code" , monospace;
-        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;

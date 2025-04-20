@@ -4,18 +4,18 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <>
- <div className=' footer w-[1440px] max-w-[90%] flex flex-col justify-between pt-[38px] gap-[38px]'>
-      <div className="childs flex justify-between w-full">
+ <div className=' footer w-[1440px] max-w-9/10 flex flex-col justify-between pt-[38px] gap-[38px]'>
+      <div className="childs flex flex-col lg:flex-block justify-between w-full">
       <div className="first-child w-[50%] flex flex-col gap-[20px] ">
-        <div className="logo-cnt flex justify-between  max-w-[400px]">
-        <div className="logo flex justify-start gap-[10px]">
-          <Image width={30} height={30} src="/logo.png" alt="LOGO" />
+        <div className="logo-cnt flex flex-col lg:flex-row justify-between  max-w-[400px] gap-4">
+        <div className="logo flex justify-start gap-2">
+          <Image width={15} height={3} src="/logo.png" alt="LOGO" />
           <p className='logo-text'>huzaifa iqbal</p>
         </div>
         <p>huzaifaiqbal5554@gmail.com</p>
           
         </div>
-        <p className='footer-text'>web dev MERN & Wordpress</p>
+        <p className='footer-text sm:w-full'>web dev MERN & Wordpress</p>
       </div>
       <div className="second-child flex flex-col justify-center items-center">
         <h3>Media</h3>
@@ -51,7 +51,7 @@ const Footer = () => {
 
 
       <div className="bottom-bar w-full flex justify-center pb-[20px]">
-        <p>© Copyright 2025 - judgment Day . built by Huzaifa Iqbal Sindhi</p>
+        <p className='w-full text-center'>© Copyright 2025 - judgment Day  built by Huzaifa Iqbal Sindhi</p>
       </div>
     </div>
     <style>

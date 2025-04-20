@@ -12,26 +12,25 @@ const Quote = () => {
     transition={{ duration: 0.5 }}   // Duration of animation
     >
   
- <div className='pt-[100px] pb-[100px] flex flex-col items-end'>
- <div className='qoute-cnt w-[712px] display flex flex-col relative'>
-      <Image width={20} height={20} src="/qoutation.png" alt="qoutation" />
+ <div className='pt-10 pb-10 lg:pt-25 lg:pb-25 flex flex-col items-center lg:items-end '>
+ <div className='qoute-cnt w-9/10 lg:w-3xl display flex flex-col relative py-3 px-3 lg:py-6 lg:px-6'>
+      <Image width={20} height={20} src="/qoutation.png" alt="qoutation"  className='hidden lg:block'/>
       <div>
-        <h3>Code isn’t just syntax — it’s a tool to solve real-world problems and empower communities.</h3>
+        <h3 className='text-sm md:text-base lg:text-2xl'>Code isn&apos;t just syntax — it&apos;s a tool to solve real-world problems and empower communities.</h3>
       </div>
-      <Image width={20} height={20} className='second-quot' src="/qoutation.png" alt="qoutation" />
+      <Image width={20} height={20} className='second-quot hidden lg:block' src="/qoutation.png" alt="qoutation"/>
 
 
     </div>
-      <div className='second-quet-sec'>
+      <div className='second-quet-sec  py-3 px-3 lg:py-6 lg:px-6'>
         
-     <h3>- Dr. Who</h3>
+     <h3 className='text-sm md:text-base lg:text-2xl'>- Dr. Who</h3>
       </div>
     </div>
     <style jsx>
       {`
         .qoute-cnt{
-        border: 1px solid var(--gray, #ABB2BF); 
-        padding: 32px;      
+        border: 1px solid var(--gray, #ABB2BF);  
         }
         .qoute-cnt img{
         padding: 8px;
@@ -52,7 +51,6 @@ const Quote = () => {
         .qoute-cnt h3{
         color: #FFF;
         font-family: "Fira Code" , monospace;
-        font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -62,14 +60,12 @@ const Quote = () => {
         width: 30% !important; 
         border: 1px solid var(--gray, #ABB2BF); 
         border-top: 0px;
-
-        padding: 32px;      
+ 
 
         }
         .second-quet-sec h3{
         color: #FFF;
         font-family: "Fira Code" , monospace;
-        font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;

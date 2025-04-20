@@ -10,7 +10,7 @@ const MotionImage = motion(Image);
 const Aboutme = () => {
   return (
     <>
-      <div className='about-cnt max-w-[1440px]'>
+      <div className='about-cnt w-9/10 lg:w-full max-w-[1440px]'>
         <MotionImage
           width={100}
           height={100}
@@ -34,13 +34,13 @@ const Aboutme = () => {
 
         <div className="top-bar w-full flex flex-row justify-between items-center">
           <div className='top-child'>
-            <h3><span>#</span>about-me</h3><span className='line'></span>
+            <h3><span>#</span>about-me</h3><span className='line hidden lg:block'></span>
           </div>
         </div>
 
-        <div className="second w-full flex flex-row justify-between items-center">
-          <div className="details w-[70%]">
-            <p>
+        <div className="second w-full flex flex-col lg:flex-row justify-between items-center gap-15">
+          <div className="details w-full lg:w-3/4">
+            <p className='text-sm lg:text-base'>
               Hello, it&apos;s Huzaifa Iqbal!
               <br /><br />
               From the streets of rural Sindh to building digital solutions with the MERN Stack, WordPress, and SEO, my journey is not just about code — it is about creating opportunities where none existed. As co-founder of Hexavibe Digital Solutions, I blend tech and hustle to build products that solve real problems, tell stories, and spark growth. I do not just develop websites — I design digital revolutions, one project at a time.
@@ -125,7 +125,6 @@ const Aboutme = () => {
         .about-cnt .second .details p{
           color: var(--gray, #ABB2BF);
           font-family: "Fira Code" , monospace;
-          font-size: 16px;
           font-style: normal;
           font-weight: 400;
           line-height: 26px;
