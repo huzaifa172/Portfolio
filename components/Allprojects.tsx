@@ -118,6 +118,17 @@ const AllProjects = () => {
             </div>
         </div>
 
+        <div className='box'>
+            <Image width={330} height={250} src="/uber.png" alt="" />
+            <p>React.js TailwindCSS Framer Motion GSAP  Multer Next.js TypeScript CSS JavaScript</p>
+            <div className='box-child'>
+              <h4>Kilwa</h4>
+              <p>the biggest Investment Agency in Afirca</p>
+              <Button label="Live"
+             url='https://kilwa.vercel.app/home' />     
+            </div>
+        </div>
+
 
 
         <div className='box'>
