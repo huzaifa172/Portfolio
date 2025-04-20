@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
  <div className=' footer w-[1440px] max-w-9/10 flex flex-col justify-between pt-[38px] gap-[38px]'>
-      <div className="childs flex flex-col lg:flex-block justify-between w-full">
+      <div className="childs flex flex-col lg:flex-row justify-between w-full">
       <div className="first-child w-[50%] flex flex-col gap-[20px] ">
         <div className="logo-cnt flex flex-col lg:flex-row justify-between  max-w-[400px] gap-4">
         <div className="logo flex justify-start gap-2">
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <p className='footer-text sm:w-full'>web dev MERN & Wordpress</p>
       </div>
-      <div className="second-child flex flex-col justify-center items-center">
+      <div className="second-child flex flex-col justify-center lg:justify-end items-center lg:items-right">
         <h3>Media</h3>
         <div className="media flex justify-center gap-[10px] pt-2">
         <a  target="blank" href="https://github.com/huzaifa172">

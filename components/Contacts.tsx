@@ -24,9 +24,9 @@ const Contacts = () => {
     </div>
 
 
-<div className="second flex flex-col lg:flex-row justify-between items-center gap-5"> 
+<div className="second flex flex-col lg:flex-row justify-between items-center gap-5  z-[9999999999] bg-[#282C33]"> 
 
-  <div className="details z-[9999999999] bg-[#282C33]">
+  <div className="details">
      <p>
      Let us turn your next big idea into a digital reality — the kind people do not forget.</p> 
   </div>

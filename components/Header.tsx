@@ -7,7 +7,7 @@ import { HiMiniBars3BottomRight } from "react-icons/hi2";
 
 const Header = () => {
   return (
-    <div className="z-[99999] bg-[#282C33] w-[1440px] fixed   max-w-[90%] flex justify-between items-center pt-[32px] pb-[8px]">
+    <div className="z-[999999999999999999999] bg-[#282C33] w-[1440px] fixed   max-w-[90%] flex justify-between items-center pt-[32px] pb-[8px]">
       <div className="logo w-[50%] flex flex-row justify-start items-center gap-[5px]">
         <div>
           <svg

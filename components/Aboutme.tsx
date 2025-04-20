@@ -10,7 +10,7 @@ const MotionImage = motion(Image);
 const Aboutme = () => {
   return (
     <>
-      <div className='about-cnt w-9/10 lg:w-full max-w-[1440px]'>
+      <div className='about-cnt w-9/10 lg:w-full max-w-9/10'>
         <MotionImage
           width={100}
           height={100}

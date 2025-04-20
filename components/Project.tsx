@@ -36,7 +36,7 @@ const Project = () => {
         
         
         
-        <div className='box z-[99999999] bg-[#282C33] '>
+        <div className='box z-[9999999] bg-[#282C33] '>
             <Image width={330} height={250} src="/freeai.png" alt="" />
             <p>Next.js TypeScript React.js Tailwind CSS Three.js JavaScriptES6+ HTML/CSS </p>
             <div className='box-child'>
