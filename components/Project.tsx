@@ -82,7 +82,7 @@ const Project = () => {
               <h4>TG Bot And Mini app</h4>
               <p>i built tg bot with a mini app with collegs</p>
               <Button label="Live"
-             url='https://demo-bot-frontend.vercel.app/' />     
+             url='https://t.me/demosocial172Bot/myapp?startapp=6825320742' />     
             </div>
         </div>
 

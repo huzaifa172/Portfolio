@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className="hero-child w-[100%] flex flex-col justify-center gap-[20px]">
             <h1 className='text-xl lg:text-3xl'>Huzaifa iqbal is a <span>Web developer</span> and <span>MERN Expert</span></h1>
             <p className='text-sm lg:text-xl'>He Transforming Ideas into Scalable Web Platforms with MERN & WordPress.</p>
-            <Button label="Contact me!!" url='/'/>      
+            <Button label="Contact me!!" url='https://www.linkedin.com/in/huzaifa-iqbal-a591a4357'/>      
         </div>
 
         </motion.div>  

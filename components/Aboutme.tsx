@@ -10,7 +10,7 @@ const MotionImage = motion(Image);
 const Aboutme = () => {
   return (
     <>
-      <div className='about-cnt w-9/10 lg:w-full max-w-9/10'>
+      <div className='about-cnt w-9/10 lg:w-7xl lg:max-w-9/10'>
         <MotionImage
           width={100}
           height={100}
@@ -47,7 +47,7 @@ const Aboutme = () => {
               <br /><br />
               Whether it&apos;s launching a startup, boosting a local business, or building a custom web app, I focus on delivering results that matter. I believe in clean code, clear purpose, and continuous learning — because the web does not wait, and neither do I.
             </p>
-            <Button label="Read more "  url="/"/>
+            <Button label="Read more "  url="/aboutme"/>
           </div>
 
           <div className="pic relative">
