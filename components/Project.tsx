@@ -43,7 +43,7 @@ const Project = () => {
               <h4>FreeAi </h4>
               <p>Free Ai Image and Voice speech Generator </p>
               <div className='pb-[5px]'><Button label="Live"
-              url='' />   </div>
+              url='https://free-ai-next-js-alpha.vercel.app/home' />   </div>
               <Button label="Cached" url="https://free-ai-one.vercel.app/"/>
             </div>
         </div>
